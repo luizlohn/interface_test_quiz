@@ -15,7 +15,7 @@ After do |scenario|
 			FileUtils.mkdir_p("screenshots")
 		end
 
-		time_stamp = Time.now.strftime("%Y-%m-%d_%H.%M.%S")
+		time_stamp = Time.now.strftime("%d-%m-%Y_%H.%M.%S")
 		screenshot_name = "#{time_stamp}.png"
 		screenshot_file = File.join("screenshots", screenshot_name)
 		$driver.screenshot(screenshot_file)
