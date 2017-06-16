@@ -1,8 +1,9 @@
 Dado(/^que esteja na tela de Configurações$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  $driver.find_element(id: "btSettings").click
 end
 
 Dado(/^o botão da música estiver habilitado$/) do
+
   pending # Write code here that turns the phrase above into concrete actions
 end
 

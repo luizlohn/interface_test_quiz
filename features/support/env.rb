@@ -13,15 +13,15 @@ require "appium_lib"
 # end
 
 def caps
-	{ caps: { deviceName: "Emulator",
-			  platformName: "Android",
-			  app: "/Users/luizlohn/codes/interface_test_mobile/app/QuizyourEnglish_v1.0.5_apkpure.com.apk",
-        platformVersion: "7.1",
-				appPackage: "cambridgeenglish.bravi.quiz",
-				appActivity: "quiz.ui.SplashActivity",
-			  newCommandTimeout: 3600,
-	  appium_lib: {  wait: 20,
-	  				debug: false
+{ caps: {   deviceName: "0010180973",
+						platformName: "Android",
+						app: "/Users/luiz/develop/interface_test_quiz/app/QuizyourEnglish_v1.0.5_apkpure.com.apk",
+						appPackage: "org.cambridgeenglish.bravi.quiz",
+						appActivity: "br.com.bravi.quiz.ui.SplashActivity",
+						appWaitActivity: "br.com.bravi.quiz.ui.OnboardActivity",
+						newCommandTimeout: 3600,
+						appium_lib: {  wait: 20,
+													 debug: false
 	  			  }
 	}}
 end
