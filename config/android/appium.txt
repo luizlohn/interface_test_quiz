@@ -1,10 +1,11 @@
 [caps]
-platformName: "Android"
-deviceName: "FBAZB601V860"
-app: "/Users/luiz/develop/interface_test_quiz/app/QuizyourEnglish_v1.0.5_apkpure.com.apk"
-appActivity: "br.com.bravi.quiz.ui.SplashActivity"
-appWaitActivity: "br.com.bravi.quiz.ui.OnboardActivity"
-newCommandTimeout: 3600
+platformName = "Android"
+deviceName = "FBAZB601V860"
+app = "/Users/luiz/develop/interface_test_quiz/app/QuizyourEnglish_v1.0.5_apkpure.com.apk"
+appPackage = "org.cambridgeenglish.bravi.quiz"
+appActivity = "br.com.bravi.quiz.ui.SplashActivity"
+appWaitActivity = "br.com.bravi.quiz.ui.OnboardActivity"
+newCommandTimeout = 3600
 [appium_lib]
-wait: 20
-debug: false
+wait = 20
+debug = false

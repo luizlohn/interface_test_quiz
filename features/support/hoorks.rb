@@ -1,5 +1,4 @@
 Before() do
-	$driver.start_driver
 	$driver.wait{10}
   if Elements.new.is_element_present("id","innerTextView") == true
     SkipOnBoarding.new.skipOnBoardingScreen
