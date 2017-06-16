@@ -8,4 +8,10 @@ class Elements
     return result
     $driver.wait{3000}
   end
+  def array_element_compare(selector, element, text)
+    button_array = find_elements(selector, element)
+    button_array.each do |btn|
+      btn.click if btn.text == text
+    end
+  end
 end

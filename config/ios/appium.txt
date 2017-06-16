@@ -1,0 +1,10 @@
+[caps]
+platformName: "ios"
+deviceName: ""
+app: ""
+appActivity: ""
+appWaitActivity: ""
+newCommandTimeout: 3600
+[appium_lib]
+wait: 20
+debug: false
